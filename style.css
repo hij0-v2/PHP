@@ -1,0 +1,11 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+td {
+    border:1px solid black;
+    text-align: center;
+}
+th {
+    border: 1px solid black;
+}
