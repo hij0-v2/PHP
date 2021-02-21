@@ -2,10 +2,14 @@ body {
     display: flex;
     justify-content: center;
 }
+table {
+    width: 60%;
+    height: 40%;
+}
 td {
     border:1px solid black;
     text-align: center;
 }
 th {
-    border: 1px solid black;
+    border:1px solid black;
 }

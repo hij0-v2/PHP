@@ -114,7 +114,7 @@ $mokInfo = [
         5 => $date
     ],
 ];
-echo "<table style='width:80%'>
+echo "<table>
     <tr>
         <th>Klase</th>
         <th>Kodas</th>
@@ -132,9 +132,9 @@ foreach ($mokInfo as $item){
     echo "<td>$item[3]</td>";
     echo "<td>". round(array_sum($item[4])/3,2) ."</td>";
     echo "<td>$item[5]</td>";
-
-
 }
+echo "</tr>
+    </table>";
 
 ?>
 
