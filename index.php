@@ -21,7 +21,7 @@ $mokInfo = [
         4 => [
             1 => 5,
             2 => 9,
-            3 => 10,
+            3 => 9,
         ],
         5 => $date
     ],
@@ -31,8 +31,8 @@ $mokInfo = [
         3 => strtoupper("romaitis"),
         4 => [
             1 => 5,
-            2 => 9,
-            3 => 10,
+            2 => 4,
+            3 => 1,
         ],
         5 => $date
     ],
@@ -43,7 +43,7 @@ $mokInfo = [
         4 => [
             1 => 5,
             2 => 9,
-            3 => 10,
+            3 => 5,
         ],
         5 => $date
     ],
@@ -53,8 +53,8 @@ $mokInfo = [
         3 => strtoupper("margaite"),
         4 => [
             1 => 5,
-            2 => 9,
-            3 => 10,
+            2 => 7,
+            3 => 3,
         ],
         5 => $date
     ],
@@ -63,9 +63,9 @@ $mokInfo = [
         2 => strtoupper("varis"),
         3 => strtoupper("varaitis"),
         4 => [
-            1 => 5,
-            2 => 9,
-            3 => 10,
+            1 => 7,
+            2 => 3,
+            3 => 1,
         ],
         5 => $date
     ],
@@ -76,7 +76,7 @@ $mokInfo = [
         4 => [
             1 => 5,
             2 => 9,
-            3 => 10,
+            3 => 7,
         ],
         5 => $date
     ],
@@ -85,7 +85,7 @@ $mokInfo = [
         2 => strtoupper("moris"),
         3 => strtoupper("moraitis"),
         4 => [
-            1 => 5,
+            1 => 10,
             2 => 9,
             3 => 10,
         ],
@@ -98,7 +98,7 @@ $mokInfo = [
         4 => [
             1 => 5,
             2 => 9,
-            3 => 10,
+            3 => 7,
         ],
         5 => $date
     ],
@@ -109,7 +109,7 @@ $mokInfo = [
         4 => [
             1 => 5,
             2 => 9,
-            3 => 10,
+            3 => 5,
         ],
         5 => $date
     ],
@@ -130,7 +130,7 @@ foreach ($mokInfo as $item){
     echo "<td>$item[1]</td>";
     echo "<td>$item[2]</td>";
     echo "<td>$item[3]</td>";
-    echo "<td>". array_sum($item[4])/3 ."</td>";
+    echo "<td>". round(array_sum($item[4])/3,2) ."</td>";
     echo "<td>$item[5]</td>";
 
 
